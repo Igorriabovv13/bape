@@ -1,0 +1,137 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="konsult.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <title>shark</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <div class="header-line">
+        <div class="header-logo">
+          <img class="small-rotate" src="shark.png" width="250px" height="200px">
+        </div>
+        
+        <div class="nav">
+        <a class="nav-item" href="head.html">Главная</a>
+        <a class="nav-item" href="kyrsi.html">курсы</a>
+        <a class="nav-item" href="konsult.html">консультации</a>
+        <a class="nav-item"href="forum.html">форум</a>
+        <a class="nav-item"href="contact.html">контакты</a>
+        <a class="nav-item"href="lich.html">личный кабинет</a>
+        <a class="nav-item"href="vxod.html"><i class='bx bxs-user-circle' ></i></a>
+
+        </div>
+       
+        </div>
+        </div>
+
+
+
+
+
+        <div class="containerr">
+            <div class="card">
+                <div class="card-header">
+                    <div class="waves-container">
+                        <div class="wave wave1"></div>
+                        <div class="wave wave2"></div>
+                        <div class="wave wave3"></div>
+                    </div>
+                    <img class="profile-img" src="z.jpg" alt="profile-picture">
+                </div>
+                <div class="card-body">
+                    <h2>Сергей Анатольевич Зверев</h2>
+                    <p> Сергей активно помогает студентам в освоении программирования,
+                        отвечая на их вопросы и предоставляя полезные ресурсы. 
+                        Он также проводит  регулярные консультации, чтобы студенты 
+                        могли улучшить свои навыки и уверенность в разработке.
+                    </p>
+                    <a href="#" class="btn">консультация</a>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-header">
+                    <div class="waves-container">
+                        <div class="wave wave1"></div>
+                        <div class="wave wave2"></div>
+                        <div class="wave wave3"></div>
+                    </div>
+                    <img class="profile-img" src="q.jpg" alt="profile-picture">
+                </div>
+                <div class="card-body">
+                    <h2>Анастасия Юрьевна Волочкова</h2>
+                    <p> Анастасиявсегда готова помочь студентам разобраться в сложных 
+                        математических концепциях и задачах. Она организует 
+                        дополнительные занятия и онлайн-уроки, чтобы каждый 
+                        мог получить индивидуальную поддержку
+                    </p>
+                    <a href="#" class="btn">консультация</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+       
+<div class="containerrr">
+        <div class="booking_form">
+            <h2>Забронировать консультацию</h2>
+              <form action="#">
+                <div class="input_contact">
+                    
+                  <input type="text" placeholder="Имя">
+                  <input type="text" placeholder="Фамилия">
+                  <input type="text" placeholder="Е-майл">
+                  <input type="text" placeholder="Тел.">
+                </div>
+                <div class="input_label">
+                  <label><span>Время</span><input type="text"></label>
+                  <label><span>Дата</span><input type="text" id="datepicker"></label>
+                  <label><span>Дата</span><input type="text" id="datepicker"></label>
+                </div>
+                <div class="submit_button">
+                  <input type="submit" value="Отправить">
+                </div>
+              </form>
+            </div>
+</div>
+
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            
+            <script>
+            $( function() {
+                $( "#datepicker" ).datepicker();
+            });
+            </script>
+
+
+
+
+
+
+
+
+        <div class="footer">
+            <footer>
+            <div class="footer-line">
+         
+            <div class="nav">
+            <h2>Компания © Shark. Все права защищены.</h2>
+            
+            
+          
+            </div>
+            
+            </footer>
+</body>
+</html>

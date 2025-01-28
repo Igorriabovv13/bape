@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: "Oswald", serif;
+    }
+    
+   
+    .container {
+    margin: 0px;
+    }
+    
+    .header {
+      
+      background: linear-gradient(70deg,  rgb(179, 95, 95), rgb(126, 99, 194));
+      
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .header-line {
+
+    padding-top: 10px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-around;
+    }
+    
+    .nav-item {
+
+        
+    color: #000000;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 35px;
+
+   
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; 
+    }
+
+    
+    .nav-item:hover{
+        color: #ffffff; 
+      }
+
+      img.small-rotate {
+        -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+      }
+      img.small-rotate:hover {
+        -webkit-transform: rotate(15deg); 
+                transform: rotate(15deg); 
+      }
+    
+   
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+      
+    .footer-line {
+        color: #F0F0F0;
+          background-color: #000000;
+          padding-top: 10px;
+          padding-left: 30px;
+          display: flex;
+          align-items: center;
+          font-size: 24px;
+          justify-content: space-around;
+          }
+          
+
+
+
+
+/* Embedding montserrat fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+
+.containerr {
+    display: flex; /* Используем Flexbox для расположения карт */
+    justify-content: center; /* Центрируем карты по горизонтали */
+    margin-top: 300px; /* Отступ сверху для контейнера */
+}
+
+.card {
+    width: 400px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    margin: 0 20px; /* Отступ между картами */
+}
+
+.card .card-header {
+    height: 150px;
+    position: relative;
+}
+
+.card .card-header .waves-container {
+    height: 100%;
+}
+
+.card .card-header .waves-container .wave {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    background-image: linear-gradient(to bottom left, #8aafff, #5B86E5);
+    transform: translateX(-50%);
+}
+
+.card .card-header .waves-container .wave1 {
+    border-radius: 50%;
+    top: -330%;
+    left: 50%;
+    animation: spin 12s linear infinite;
+}
+
+.card .card-header .waves-container .wave2 {
+    border-radius: 46%;
+    top: -332%;
+    left: 48%;
+    opacity: 0.5;
+    animation: spin 16s linear infinite;
+}
+
+.card .card-header .waves-container .wave3 {
+    border-radius: 40%;
+    top: -328%;
+    left: 52%;
+    opacity: 0.2;
+    animation: spin 16s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+.card .card-header .profile-img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* для сохранения пропорций изображения */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .card-body {
+    margin-top: 100px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.card .card-body h2 {
+    text-transform: capitalize;
+    color: rgb(82, 82, 82);
+}
+
+.card .card-body .btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 45px;
+    color: #fff;
+    background-color: #5B86E5;
+    border-radius: 100px;
+    text-transform: uppercase;
+    margin:20px 0 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    }
+
+
+
+
+    .containerrr {
+margin-top: 400px;
+       margin-left: 700px;
+height: 500px;
+width: 500px;
+background: rgb(177, 173, 173);
+color: #ffffff;
+text-align: center;
+border-radius: 15px;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+
+
+    .booking_form {
+        margin-top: 150px;
+        max-width: 400px;
+        margin: 4rem auto;
+    }
+
+
+    h2 {
+        
+        font-family: 'Roboto Condensed';
+        font-size: 32px;
+          color: #313030;
+        padding-bottom: 30px;
+    }
+
+    .booking_form .input_contact {
+
+        
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+
+    input[type=text] {
+        height: 30px;
+        border: 1px solid #f1f1f1;
+        padding: 0 13px;
+        font-family: 'Open Sans';
+        color: #737272;
+        font-size: 14px;
+    }
+
+    .booking_form .input_contact input[type=text] {
+        width: 190px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .booking_form .input_label input[type=text] {
+        width: 320px;
+        margin-bottom: 15px;
+    }
+    .booking_form .input_label label {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .booking_form .input_label span {
+        font-family: 'Open Sans';
+        color: #737272;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+
+
+    input::-webkit-input-placeholder,
+
+input::-moz-input-placeholder {
+
+    font-family: 'Open Sans';
+
+    color: #737272;
+
+    font-size: 14px;
+
+}
+
+
+
+
+*:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+*:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.booking_form .submit_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.booking_form input[type=submit] {
+    width: 120px;
+    height: 45px;
+    background: #607D8B;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+          .footer {
+          margin-top: 960px;
+          background-color: #000000
+          }
+      
+  
+        a{
+          text-decoration:none;
+        }

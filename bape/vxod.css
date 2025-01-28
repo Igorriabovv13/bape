@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    
+    font-family: "Oswald", serif;
+    }
+    
+   
+    .container {
+    margin: 0px;
+    }
+    
+    .header {
+      
+      background: linear-gradient(70deg,  rgb(179, 95, 95), rgb(126, 99, 194));
+      
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .header-line {
+
+    padding-top: 10px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-around;
+    }
+    
+    .nav-item {
+
+        
+    color: #000000;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 35px;
+
+   
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; 
+    }
+
+    
+    .nav-item:hover{
+        color: #ffffff; 
+      }
+
+      img.small-rotate {
+        -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+      }
+      img.small-rotate:hover {
+        -webkit-transform: rotate(15deg); 
+                transform: rotate(15deg); 
+      }
+    
+      .image-text-container {
+        margin-top: 30px;
+        margin-left: 320px;
+        position: relative;
+        display: inline-block;
+      }
+      
+      .text-overlay {
+        margin-top: -60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 24px;
+        transform: translate(-50%, -50%);
+        color: rgb(2, 1, 1);
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      }
+      .text-overlayy {
+        margin-top: -5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 24px;
+        transform: translate(-50%, -50%);
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      }
+     
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-line {
+    color: #F0F0F0;
+      background-color: #000000;
+      padding-top: 10px;
+      padding-left: 30px;
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      justify-content: space-around;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .footer {
+      margin-top: 560px;
+      background-color: #000000
+      }
+  
+
+    a{
+      text-decoration:none;
+    }
